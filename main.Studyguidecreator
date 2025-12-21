@@ -1,19 +1,42 @@
 number_of_questions = int(input("How many questions would you like to have?"))
 
-if number_of_questions > 20:
-  print("ERROR. We do not support that many questions yet. Please choose 20 or less questions.")
-
 if number_of_questions == 1:
   # Asks for the first question.
   question_one = input("What is the first question? ")
-  # Asks what the answer of the first should be.
-  answer_one = input("What is the answer to the question")
+  # Asks what the answer of the first question should be.
+  answer_one = input("What should the answer be to the first question? ")
 
-  # Asks the person using the program what the answer is to their first question.
+elif number_of_questions == 2:
+  question_one = input("What is the first question? ")
+  answer_one = input("What should the answer be to the first question? ")
+  question_two = input("What is the second question? ")
+  answer_two = input("What should the answer be to the second question? ")
+
+elif number_of_questions == 3:
+  question_one = input("What is the first question? ")
+  answer_one = input("What should the answer be to the first question? ")
+  question_two = input("What is the second question? ")
+  answer_two = input("What should the answer be to the second question? ")
+  question_three = input("What is the third question? ")
+  answer_three = input("What should the answer be to the third question? ")
+
+elif number_of_questions == 4:
+  question_one = input("What is the first question? ")
+  answer_one = input("What should the answer be to the first question? ")
+  question_two = input("What is the second question? ")
+  answer_two = input("What should the answer be to the second question? ")
+  question_three = input("What is the third question? ")
+  answer_three = input("What should the answer be to the third question? ")
+  question_four = input("What is the the fourth question? ")
+  answer_four = input("What should the answer be to the fourth question? ")
+
+
+##################################################################
+  # Asks the person who is using the program what the answer is to their first question.
   answer_one_studier = input(question_one)
 
-if answer_one_studier == answer_one:
-  print("You got it correct!")
-else:
-  print("You got it wrong!")
-  
+  # If the answer that the person gave matches the answer that they gave the computer earlier, it prints that they got it right or wrong.
+  if answer_one_studier == answer_one:
+    print("You got it correct!")
+  else:
+    print("You got it wrong!")
