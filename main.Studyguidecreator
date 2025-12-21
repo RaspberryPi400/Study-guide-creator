@@ -1,0 +1,19 @@
+number_of_questions = int(input("How many questions would you like to have?"))
+
+if number_of_questions > 20:
+  print("ERROR. We do not support that many questions yet. Please choose 20 or less questions.")
+
+if number_of_questions == 1:
+  # Asks for the first question.
+  question_one = input("What is the first question? ")
+  # Asks what the answer of the first should be.
+  answer_one = input("What is the answer to the question")
+
+  # Asks the person using the program what the answer is to their first question.
+  answer_one_studier = input(question_one)
+
+if answer_one_studier == answer_one:
+  print("You got it correct!")
+else:
+  print("You got it wrong!")
+  
