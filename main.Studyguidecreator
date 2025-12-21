@@ -30,8 +30,88 @@ elif number_of_questions == 4:
   question_four = input("What is the the fourth question? ")
   answer_four = input("What should the answer be to the fourth question? ")
 
+elif number_of_questions == 5:
+  question_one = input("What is the first question? ")
+  answer_one = input("What should the answer be to the first question? ")
+  question_two = input("What is the second question? ")
+  answer_two = input("What should the answer be to the second question? ")
+  question_three = input("What is the third question? ")
+  answer_three = input("What should the answer be to the third question? ")
+  question_four = input("What is the fourth question? ")
+  answer_four = input("What should the answer be to the fourth question? ")
+  question_five = input("What is the fifth question? ")
+  answer_five = input("What should the answer be to the fifth question? ")
 
-##################################################################
+elif number_of_questions == 6:
+  question_one = input("What is the first question? ")
+  answer_one = input("What should the answer be to the first question? ")
+  question_two = input("What is the second question? ")
+  answer_two = input("What should the answer be to the second question? ")
+  question_three = input("What is the third question? ")
+  answer_three = input("What should the answer be to the third question? ")
+  question_four = input("What is the fourth question? ")
+  answer_four = input("What should the answer be to the fourth question? ")
+  question_five = input("What is the fifth question? ")
+  answer_five = input("What should the answer be to the fifth question? ")
+  question_six = input("What is the sixth question? ")
+  answer_six = input("What should the answer be to the sixth question? ")
+
+elif number_of_questions == 7:
+  question_one = input("What is the first question? ")
+  answer_one = input("What should the answer be to the first question? ")
+  question_two = input("What is the second question? ")
+  answer_two = input("What should the answer be to the second question? ")
+  question_three = input("What is the third question? ")
+  answer_three = input("What should the answer be to the third question? ")
+  question_four = input("What is the fourth question? ")
+  answer_four = input("What should the answer be to the fourth question? ")
+  question_five = input("What is the fifth question? ")
+  answer_five = input("What should the answer be to the fifth question? ")
+  question_six = input("What is the sixth question? ")
+  answer_six = input("What should the answer be to the sixth question? ")
+  question_seven = input("What is the seventh question? ")
+  answer_seven = input("What should the answer be to the seventh question? ")
+
+elif number_of_questions == 8:
+  question_one = input("What is the first question? ")
+  answer_one = input("What should the answer be to the first question? ")
+  question_two = input("What is the second question? ")
+  answer_two = input("What should the answer be to the second question? ")
+  question_three = input("What is the third question? ")
+  answer_three = input("What should the answer be to the third question? ")
+  question_four = input("What is the fourth question? ")
+  answer_four = input("What should the answer be to the fourth question? ")
+  question_five = input("What is the fifth question? ")
+  answer_five = input("What should the answer be to the fifth question? ")
+  question_six = input("What is the sixth question? ")
+  answer_six = input("What should the answer be to the sixth question? ")
+  question_seven = input("What is the seventh question? ")
+  answer_seven = input("What should the answer be to the seventh question? ")
+  question_eight = input("What is the eigth question? ")
+  answer_eight = input("What should the answer be to the eigth question? ")
+
+elif number_of_questions == 9:
+  question_one = input("What is the first question? ")
+  answer_one = input("What should the answer be to the first question? ")
+  question_two = input("What is the second question? ")
+  answer_two = input("What should the answer be to the second question? ")
+  question_three = input("What is the third question? ")
+  answer_three = input("What should the answer be to the third question? ")
+  question_four = input("What is the fourth question? ")
+  answer_four = input("What should the answer be to the fourth question? ")
+  question_five = input("What is the fifth question? ")
+  answer_five = input("What should the answer be to the fifth question? ")
+  question_six = input("What is the sixth question? ")
+  answer_six = input("What should the answer be to the sixth question? ")
+  question_seven = input("What is the seventh question? ")
+  answer_seven = input("What should the answer be to the seventh question? ")
+  question_eight = input("What is the eigth question? ")
+  answer_eight = input("What should the answer be to the eigth question? ")
+  question_nine = input("What is the ninth question? ")
+  answer_nine = input("What should the answer be to the ninth question? ")
+
+
+################################################################## This is for later...
   # Asks the person who is using the program what the answer is to their first question.
   answer_one_studier = input(question_one)
 
@@ -40,3 +120,7 @@ elif number_of_questions == 4:
     print("You got it correct!")
   else:
     print("You got it wrong!")
+
+
+####################################################################### This is also for later...
+print("Copyright (c) 2025 Elijah Corwin")
