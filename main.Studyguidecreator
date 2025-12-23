@@ -2592,8 +2592,264 @@ elif number_of_questions == 20:
         print("You got it wrong!")
         print("The correct answer is: " + answer_twenty)
 
+elif number_of_questions == 21:
+    question_one = input("What is the first question? ")
+    answer_one = input("What should the answer be to the first question? ")
+    question_two = input("What is the second question? ")
+    answer_two = input("What should the answer be to the second question? ")
+    question_three = input("What is the third question? ")
+    answer_three = input("What should the answer be to the third question? ")
+    question_four = input("What is the fourth question? ")
+    answer_four = input("What should the answer be to the fourth question? ")
+    question_five = input("What is the fifth question? ")
+    answer_five = input("What should the answer be to the fifth question? ")
+    question_six = input("What is the sixth question? ")
+    answer_six = input("What should the answer be to the sixth question? ")
+    question_seven = input("What is the seventh question? ")
+    answer_seven = input("What should the answer be to the seventh question? ")
+    question_eight = input("What is the eigth question? ")
+    answer_eight = input("What should the answer be to the eigth question? ")
+    question_nine = input("What is the ninth question? ")
+    answer_nine = input("What should the answer be to the ninth question? ")
+    question_ten = input("What is the tenth question? ")
+    answer_ten = input("What should the answer to the tenth question be? ")
+    question_eleven = input("What is the eleventh question? ")
+    answer_eleven = input("What should the answer be for the eleventh question? ")
+    question_twelve = input("What is the twelfth question? ")
+    answer_twelve = input("What should the answer be for the twelfth question? ")
+    question_thirteen = input("What is the thirteenth question? ")
+    answer_thirteen = input("What should the answer be to the thirteenth question? ")
+    question_fourteen = input("What is the fourteenth question? ")
+    answer_fourteen = input("What should the answer be to the fourteenth question? ")
+    question_fifteen = input("What is the fifteenth question? ")
+    answer_fifteen = input("What should the answer be to the fifteenth question? ")
+    question_sixteen = input("What is the sixteenth question? ")
+    answer_sixteen = input("What should the answer be to the sixteenth question? ")
+    question_seventeen = input("What is the seventeenth question? ")
+    answer_seventeen = input("What should the answer be to the seventeenth question? ")
+    question_eighteen = input("What is the eighteenth question? ")
+    answer_eighteen = input("What should the answer be to the eighteenth question? ")
+    question_nineteen = input("What is the nineteenth question? ")
+    answer_nineteen = input("What should the answer be to the nineteenth question? ")
+    question_twenty = input("What is the twentieth question? ")
+    answer_twenty = input("What should the answer be to the twentieth question? ")
+    question_twenty_one = input("What is the 21st question? ")
+    answer_twenty_one = input("What should the answer be to the 21st question? ")
+
+    print("Time to answer!")
+    print(question_one)
+    answer_one_studier = input("Your answer: ")
+
+    if answer_one_studier == answer_one:
+        print("You got it correct!")
+        score = score + 1
+    else:
+        print("You got it wrong!")
+        print("The correct answer is: " + answer_one)
+
+    print(question_two)
+    answer_two_studier = input("Your answer: ")
+
+    if answer_two_studier == answer_two:
+        print("You got it correct!")
+        score = score + 1
+    else:
+        print("You got it wrong!")
+        print("The correct answer is: " + answer_two)
+
+    print(question_three)
+    answer_three_studier = input("Your answer: ")
+
+    if answer_three_studier == answer_three:
+        print("You got it correct!")
+        score = score + 1
+    else:
+        print("You got it wrong!")
+        print("The correct answer is: " + answer_three)
+
+    print(question_four)
+    answer_four_studier = input("Your answer: ")
+
+    if answer_four_studier == answer_four:
+        print("You got it correct!")
+        score = score + 1
+    else:
+        print("You got it wrong!")
+        print("The correct answer is: " + answer_four)
+
+    print(question_five)
+    answer_five_studier = input("Your answer: ")
+
+    if answer_five_studier == answer_five:
+        print("You got it correct!")
+        score = score + 1
+    else:
+        print("You got it wrong!")
+        print("The correct answer is: " + answer_five)
+
+    print(question_six)
+    answer_six_studier = input("Your answer: ")
+
+    if answer_six_studier == answer_six:
+        print("You got it correct!")
+        score = score + 1
+    else:
+        print("You got it wrong!")
+        print("The correct answer is: " + answer_six)
+
+    print(question_seven)
+    answer_seven_studier = input("Your answer: ")
+
+    if answer_seven_studier == answer_seven:
+        print("You got it correct!")
+        score = score + 1
+    else:
+        print("You got it wrong!")
+        print("The correct answer is: " + answer_seven)
+
+    print(question_eight)
+    answer_eight_studier =input("Your answer: ")
+
+    if answer_eight_studier == answer_eight:
+        print("You got it correct!")
+        score = score + 1
+    else:
+        print("You got it wrong!")
+        print("The correct answer is: " + answer_eight)
+
+    print(question_nine)
+    answer_nine_studier = input("Your answer: ")
+
+    if answer_nine_studier == answer_nine:
+        print("You got it correct!")
+        score = score + 1
+    else:
+        print("You got it wrong!")
+        print("The correct answer is: " + answer_nine)
+
+    print(question_ten)
+    answer_ten_studier = input("Your answer: ")
+
+    if answer_ten_studier == answer_ten:
+        print("You got it correct!")
+        score = score + 1
+    else:
+        print("You got it wrong!")
+        print("The correct answer is: " + answer_ten)  
+
+    print(question_eleven)
+    answer_eleven_studier = input("Your answer: ")
+
+    if answer_eleven_studier == answer_eleven:
+        print("You got it correct!")
+        score = score + 1
+    else:
+        print("You got it wrong!")
+        print("The correct answer is: " + answer_eleven)  
+
+    print(question_twelve)
+    answer_twelve_studier = input("Your answer: ")
+
+    if answer_twelve_studier == answer_twelve:
+        print("You got it correct!")
+        score = score + 1
+    else:
+        print("You got it wrong!")
+        print("The correct answer is: " + answer_twelve)
+
+    print(question_thirteen)
+    answer_thirteen_studier = input("Your answer: ")
+
+    if answer_thirteen_studier == answer_thirteen:
+        print("You got it correct!")
+        score = score + 1
+    else:
+        print("You got it wrong!")
+        print("The correct answer is: " + answer_thirteen)
+
+    print(question_fourteen)
+    answer_fourteen_studier = input("Your answer: ")
+
+    if answer_fourteen_studier == answer_fourteen:
+        print("You got it correct!")
+        score = score + 1
+    else:
+        print("You got it wrong!")
+        print("The correct answer is: " + answer_fourteen)  
+
+    print(question_fifteen)
+    answer_fifteen_studier = input("Your answer: ")
+
+    if answer_fifteen_studier == answer_fifteen:
+        print("You got it correct!")
+        score = score + 1
+    else:
+        print("You got it wrong!")
+        print("The correct answer is: " + answer_fifteen)
+
+    print(question_sixteen)
+    answer_sixteen_studier = input("Your answer: ")
+
+    if answer_sixteen_studier == answer_sixteen:
+        print("You got it correct!")
+        score = score + 1
+    else:
+        print("You got it wrong!")
+        print("The correct answer is: " + answer_sixteen)
+
+    print(question_seventeen)
+    answer_seventeen_studier = input("Your answer: ")
+
+    if answer_seventeen_studier == answer_seventeen:
+        print("You got it correct!")
+        score = score + 1
+    else:
+        print("You got it wrong!")
+        print("The correct answer is: " + answer_seventeen)
+
+    print(question_eighteen)
+    answer_eighteen_studier = input("Your answer: ")
+
+    if answer_eighteen_studier == answer_eighteen:
+        print("You got it correct!")
+        score = score + 1
+    else:
+        print("You got it wrong!")
+        print("The correct answer is: " + answer_eighteen)
+
+
+    print(question_nineteen)
+    answer_nineteen_studier = input("Your answer: ")
+
+    if answer_nineteen_studier == answer_nineteen:
+        print("You got it correct!")
+        score = score + 1
+    else:
+        print("You got it wrong!")
+        print("The correct answer is: " + answer_nineteen)
+
+    print(question_twenty)
+    answer_twenty_studier = input("Your answer: ")
+
+    if answer_twenty_studier == answer_twenty:
+        print("You got it correct!")
+        score = score + 1
+    else:
+        print("You got it wrong!")
+        print("The correct answer is: " + answer_twenty)
+
+    print(question_twenty_one)
+    answer_twenty_one_studier = input("Your answer: ")
+
+    if answer_twenty_one_studier == answer_twenty_one:
+        print("You got it correct!")
+        score = score + 1
+    else:
+        print("You got it wrong!")
+        print("The correct answer is: " + answer_twenty_one)
+
 else:
-    print("We don't yet support that many questions. Please enter a value between 1 and 20.")
+    print("We don't yet support that many questions. Please enter a value between 1 and 21.")
 
 # Covert score to a string
 score = str(score)
