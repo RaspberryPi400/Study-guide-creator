@@ -4,3 +4,10 @@ questions that you would like to have. As of 12/24/25, it only supports up to 21
 questions should be. Then, it will ask you the questions that you entered. If you get it correct, (if you write the exact same thing that you entered earlier), it will tell you and give you a
 point. If you get it wrong, it will tell you and will give you the correct answer. Keep in mind that when giving the answers to the questions that you gave, make them all capitalized or
 lowercase and do the same thing when answering them. (It's case-sensitive). At the end, it will give you your score (how many questions you got correct.)
+
+-----------------------------------------------------
+
+To-do:
+-Ask the user the questions they created in a random order.
+-Allow users to upload a file with the questions on it.
+-Allow more questions (or infinite amount).
