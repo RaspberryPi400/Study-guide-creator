@@ -8,6 +8,5 @@ lowercase and do the same thing when answering them. (It's case-sensitive). At t
 -----------------------------------------------------
 
 To-do:
--Ask the user the questions they created in a random order.
 -Allow users to upload a file with the questions on it.
 -Allow more questions (or infinite amount).
