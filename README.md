@@ -4,5 +4,9 @@ questions that you would like to have. You can have as many questions as you wan
 
 -----------------------------------------------------
 
+This code is licensed under CC BY-NC-SA 4.0. To view this license, go to https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+-----------------------------------------------------
+
 To-do:
 -Allow users to upload a file with the questions on it.
