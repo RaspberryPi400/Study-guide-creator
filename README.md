@@ -4,6 +4,7 @@ questions that you would like to have. You can have as many questions as you wan
 
 -----------------------------------------------------
 
+Copyright (c) 2025 Elijah Corwin
 This code is licensed under CC BY-NC-SA 4.0. To view this license, go to https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 -----------------------------------------------------
