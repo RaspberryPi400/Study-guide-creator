@@ -1,28 +1,7 @@
-from typing import Optional
 
-from fastapi import FastAPI
-
-app = FastAPI()
-
-
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
-
-@app.get("/items/{item_id}")
-def read_item(item_id: int, q: Optional[str] = None):
-    return {"item_id": item_id, "q": q}
-
-import flask
-from flask import Flask
 score = 0
 import random
 import sys
-
-app = Flask(__name__)
-@app.route("https://raspberrypi400.github.io/Study-guide-creator/")
-def create_app():
-    return app
 
 number_of_questions = int(input("How many questions would you like to have? "))
 
