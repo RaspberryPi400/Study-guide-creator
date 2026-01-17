@@ -1,16 +1,27 @@
-This is a simple program for a study guide creator! People can use this to create their own study guide and quiz themsleves. To run the code, copy the contents of the main.Studyguidecreator
-file and run it in a online complier or IDE. If you run it in a IDE, download Python on your computer. Run the code and answer the questions that it asks you. First, it will ask you how many
-questions that you would like to have. You can have as many questions as you want (just not zero). Then, it will ask you what the questions should be. After that, it will ask you what the answers to those questions should be. Then, it will ask you the questions that you entered in a random order. If you get it correct, (if you write the exact same thing that you entered earlier), it will tell you and give you a point. If you get it wrong, it will tell you and will give you the correct answer. Keep in mind that when giving the answers to the questions that you gave, make them all capitalized or lowercase and do the same thing when answering them. (It's case-sensitive). At the end, it will give you your score (how many questions you got correct.)
+# Deploy FastAPI on Render
 
-This repository is published on a GitHub Pages website. View it here: https://raspberrypi400.github.io/Study-guide-creator/
-Note: as of 1/16/26, it is completely blank. I will work on making it and it will be done soon.
------------------------------------------------------
+Use this repo as a template to deploy a Python [FastAPI](https://fastapi.tiangolo.com) service on Render.
 
-Copyright (c) 2025 Elijah Corwin.
-This code is licensed under CC BY-NC-SA 4.0. To view this license, go to https://creativecommons.org/licenses/by-nc-sa/4.0/
+See https://render.com/docs/deploy-fastapi or follow the steps below:
 
------------------------------------------------------
+## Manual Steps
 
-To-do:
--Allow users to upload a file with the questions on it.
--Make GitHub Pages site not blank.
+1. You may use this repository directly or [create your own repository from this template](https://github.com/render-examples/fastapi/generate) if you'd like to customize the code.
+2. Create a new Web Service on Render.
+3. Specify the URL to your new repository or this repository.
+4. Render will automatically detect that you are deploying a Python service and use `pip` to download the dependencies.
+5. Specify the following as the Start Command.
+
+    ```shell
+    uvicorn main:app --host 0.0.0.0 --port $PORT
+    ```
+
+6. Click Create Web Service.
+
+Or simply click:
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/render-examples/fastapi)
+
+## Thanks
+
+Thanks to [Harish](https://harishgarg.com) for the [inspiration to create a FastAPI quickstart for Render](https://twitter.com/harishkgarg/status/1435084018677010434) and for some sample code!
