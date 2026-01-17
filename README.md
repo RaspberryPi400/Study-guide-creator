@@ -3,7 +3,7 @@ file and run it in a online complier or IDE. If you run it in a IDE, download Py
 questions that you would like to have. You can have as many questions as you want (just not zero). Then, it will ask you what the questions should be. After that, it will ask you what the answers to those questions should be. Then, it will ask you the questions that you entered in a random order. If you get it correct, (if you write the exact same thing that you entered earlier), it will tell you and give you a point. If you get it wrong, it will tell you and will give you the correct answer. Keep in mind that when giving the answers to the questions that you gave, make them all capitalized or lowercase and do the same thing when answering them. (It's case-sensitive). At the end, it will give you your score (how many questions you got correct.)
 
 This repository is published on a GitHub Pages website. View it here: https://raspberrypi400.github.io/Study-guide-creator/
-Note: as of 1/16/16, it is completely blank. I will work on making it and it will be done soon.
+Note: as of 1/16/26, it is completely blank. I will work on making it and it will be done soon.
 -----------------------------------------------------
 
 Copyright (c) 2025 Elijah Corwin.
