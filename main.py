@@ -39,9 +39,9 @@ for question, answer in question_answer_pairs:
         print(f"The correct answer is: ", answer)
 
 if score == 1:
-    print(f"You have answered", score, "question correctly.")
+    print(f"You have answered", score, "question correctly out of ", number_of_questions, ".")
 
 else:
-    print(f"You have answered", score, "questions correctly.")
+    print(f"You have answered", score, "questions correctly out of ", number_of_questions, ".")
 
 print("Copyright (c) 2025 Elijah Corwin")
